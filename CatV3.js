@@ -1819,7 +1819,7 @@ function placeOrder() {
         orderDetails += `▪️ ${item.product.name} - ${item.size}\n   Quantity: ${item.quantity}\n   Price: ₹${item.product.prices[item.size]} × ${item.quantity} = ₹${itemTotal}\n\n`;
     }
 
-    const deliveryFee = 100;
+    const deliveryFee = 90;
     const platformFee = 10;
     const grandTotal = subtotal + deliveryFee + platformFee;
 
