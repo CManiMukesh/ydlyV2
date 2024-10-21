@@ -968,7 +968,7 @@ const products = [
     },
     {
         name: "Imperial Blue Officer's Choice Blue",
-        image: "../assets/other/OFFICER'S CHOICE BLUE.png",
+        image: "../assets/other/LCIN01525.webp",
         sizes: ["750 ML", "375 ML", "180 ML"],
         prices: { "750 ML": 450, "375 ML": 250, "180 ML": 140 },
         category: "whiskey"
@@ -1779,7 +1779,7 @@ function showCart() {
         `;
     }
 
-    const deliveryFee = 100;
+    const deliveryFee = 90;
     const platformFee = 10;
     const grandTotal = total + deliveryFee + platformFee;
 
